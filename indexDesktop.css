@@ -301,7 +301,7 @@ a {
     opacity: 0;
 }
 
-.ppt2-neon{
+.ppt2-neon {
     width: 27vw;
     height: auto;
     z-index: 11;
@@ -311,17 +311,17 @@ a {
     opacity: 0;
 }
 
-.ppt2-tv{
+.ppt2-tv {
     width: 20vw;
     height: auto;
     z-index: 11;
     position: absolute;
-    left:60VW;
+    left: 60VW;
     bottom: 7.4vw;
     /* opacity: 0; */
 }
 
-.ppt2-laptop{
+.ppt2-laptop {
     width: 13.2vw;
     height: auto;
     z-index: 12;
@@ -332,7 +332,7 @@ a {
     /* opacity: 0; */
 }
 
-.ppt2-tel{
+.ppt2-tel {
     width: 3.2vw;
     height: auto;
     z-index: 13;
@@ -342,7 +342,7 @@ a {
     /* opacity: 0; */
 }
 
-.ppt2-reflection{
+.ppt2-reflection {
     width: 27vw;
     height: auto;
     z-index: 11;
@@ -359,7 +359,7 @@ a {
 
 
 
-.ppt2-title{
+.ppt2-title {
     font-size: 3vw;
     font-weight: 900;
     line-height: 3.2vw;
@@ -372,41 +372,41 @@ a {
     opacity: 0;
 }
 
-.ppt2-sidetitle1{
+.ppt2-sidetitle1 {
     background-color: #ed1c24;
     font-size: 1.25vw;
     font-weight: 500;
     color: #ffffff;
     text-align: center;
     text-anchor: middle;
-    padding: 0.2vw 0.5vw;
+    padding: 0.2vw 0.8vw;
     position: absolute;
     left: 14%;
     top: 30%;
-    overflow: hidden    ;
+    overflow: hidden;
 }
 
-.ppt2-sidetitle2{
+.ppt2-sidetitle2 {
     background-color: #ed1c24;
     font-size: 1.25vw;
     font-weight: 500;
     color: #ffffff;
     text-align: center;
     text-anchor: middle;
-    padding: 0.2vw 0.5vw;
+    padding: 0.2vw 0.8vw;
     position: absolute;
     left: 14%;
     top: 40%;
 }
 
-.ppt2-sidetitle3{
+.ppt2-sidetitle3 {
     background-color: #ed1c24;
     font-size: 1.25vw;
     font-weight: 500;
     color: #ffffff;
     text-align: center;
     text-anchor: middle;
-    padding: 0.2vw 0.5vw;
+    padding: 0.2vw 0.8vw;
     position: absolute;
     left: 14%;
     top: 50%;
@@ -432,21 +432,21 @@ a {
     align-items: center;
 }
 
-.ppt3-title1{
+.ppt3-title1 {
     color: #ffffff;
     font-size: 2vw;
     line-height: 2vw;
     font-weight: 700;
 }
 
-.ppt3-title2{
+.ppt3-title2 {
     color: #ffffff;
     font-size: 12vw;
     line-height: 12vw;
     font-weight: 700;
 }
 
-.ppt3-title3{
+.ppt3-title3 {
     color: #ffffff;
     font-size: 2vw;
     line-height: 2.4vw;
@@ -455,7 +455,7 @@ a {
 }
 
 
-.ppt3-boy{
+.ppt3-boy {
     position: absolute;
     width: 12vw;
     height: auto;
@@ -465,7 +465,7 @@ a {
 }
 
 
-.ppt3-girl{
+.ppt3-girl {
     position: absolute;
     width: 12vw;
     height: auto;
@@ -480,20 +480,297 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .viewbox-trigger1,
 .viewbox-trigger2,
 .viewbox-trigger3,
 .viewbox-trigger4 {
     height: 100vh;
     /* margin-top: 58vh; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------- NEWS ----------------------- */
+
+.news-container {
+    width: 100%;
+    height: 40.208333333333332VW;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.news-wrapper {
+    padding: 0 5.416666666666667VW;
+    width: 100%;
+    height: 30.208333333333332VW;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news-card {
+    width: 26.927083333333336VW;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0, 0, 7, 0.24);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0, 0, 7, 0.24);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 7, 0.24);
+    transition: transform 0.2s
+}
+
+.news-card:hover{
+    transform: scale(1.02);
+}
+
+.news-img {
+    width: 100%;
+    height: auto;
+}
+
+.news-title {
+    font-size: 1.9270833333333335VW;
+    color: #002f50;
+    font-weight: 700;
+    line-height: 2.4vw;
+    margin-left: 1.7187500000000002VW;
+}
+
+.news-bottom-wrapper {
+    width: 23.541666666666668VW;
+    margin-bottom: 1.5625VW;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-top: 4px solid #ebebec;
+    margin-left: 1.7187500000000002VW;
+    padding-top: 1vw;
+}
+
+.news-date {
+    font-size: 1.1979166666666667VW;
+    color: #e2e3e4;
+}
+
+.news-readmore {
+    font-size: 1.1979166666666667VW;
+    color: #ed1c24;
+    transition: transform 0.2s;
+}
+
+.news-readmore:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.goto-vesti-page {
+    font-size: 1.3020833333333335VW;
+    line-height: 1.3020833333333335VW;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1.25VW 2.1875VW;
+    background-color: #ed1c24;
+    margin: 1.9791666666666665VW auto;
+    border: 2px solid #ed1c24;
+}
+
+.goto-vesti-page:hover {
+    background-color: #ffffff;
+    color: #ed1c24;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* ------------------ GLOBAL MTEL --------------------- */
+
+.mtelglobal-container {
+    width: 100%;
+    height: 39.479166666666664VW;
+    padding-left: 5.46875VW;
+    margin-top: 4.114583333333333VW;
+    margin-bottom: 4.21875VW;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 2.4479166666666665VW;
+}
+
+
+.mtelglobal-left-wrapper {
+    width: 33.489583333333336VW;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mtelglobal-title {
+    font-size: 3.90625VW;
+    line-height: 3.90625VW;
+    font-weight: 700;
+    color: #002f50;
+}
+
+.mtelglobal-subtitle-wrapper {
+    width: 100%;
+    height: 22.8125VW;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mtelglobal-subtitle {
+    font-size: 1.3020833333333335VW;
+    line-height: 1.6VW;
+    font-weight: 400;
+    color: #002f50;
+}
+
+.goto-mtelglobal-page {
+    font-size: 1.3020833333333335VW;
+    line-height: 1.3020833333333335VW;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 1.25VW 2.1875VW;
+    background-color: #ed1c24;
+    border: 2px solid #ed1c24;
+}
+
+.goto-mtelglobal-page:hover {
+    background-color: #ffffff;
+    color: #ed1c24;
+    cursor: pointer;
+}
+
+
+
+.mtelglobal-right-wrapper{
+    width: 56.71874999999999VW;
+    height: 28.749999999999996VW;
+    /* background-image: url("./images/worldmap.png");
+    background-size: 100% 100%; */
+    position: relative;
+    
+}
+
+.worldmap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.pin1{
+    width: auto;
+    height: 0;
+    position: absolute;
+    left: 6.406249999999999VW;
+    top: -7.083333333333333VW;
+}
+
+.pin2{
+    width: auto;
+    height: 0;
+    position: absolute;
+    left: 22.9VW;
+    top: -2.65625VW;
+}
+
+.pin3{
+    width: auto;
+    height: 0;
+    position: absolute;
+    left: 35.5VW;
+    top: -5.260416666666667VW;
+}
+
+.pin4{
+    width: auto;
+    height: 0;
+    position: absolute;
+    left: 9.8VW;
+    top: 10VW;
+}
+
+
+.pin1-title{
+    font-size: 0.8854166666666666VW;
+    font-weight: 700;
+    color: #ed1c24;
+    position: absolute;
+    left: 7.708333333333334VW;
+    top: -7.15VW;
+    opacity: 0;
+}
+
+.pin2-title{
+    font-size: 0.8854166666666666VW;
+    line-height: 1.2vw;
+    font-weight: 700;
+    color: #ed1c24;
+    position: absolute;
+    left: 24.114583333333332VW;
+    top: -3.25VW;
+    opacity: 0;
+
+}
+
+.pin3-title{
+    font-size: 0.8854166666666666VW;
+    font-weight: 700;
+    color: #ed1c24;
+    position: absolute;
+    left: 36.875VW;
+    top: -5.4VW;
+    opacity: 0;
+}
+
+.pin4-title{
+    font-size: 0.8854166666666666VW;
+    line-height: 1.2vw;
+    font-weight: 700;
+    color: #ed1c24;
+    position: absolute;
+    left: 11.145833333333334VW;
+    top: 9.2VW;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
 }

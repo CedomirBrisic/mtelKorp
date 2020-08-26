@@ -227,4 +227,111 @@ $(document).ready(function () {
 
 
 
+
+    
+    // ---------------------------PPT 4 -----------------------------------
+    gsap.to(".pin1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 80%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        height: "15.416666666666668VW"
+    })
+    gsap.to(".pin1-title", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 80%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        opacity: 1
+    })
+
+
+    gsap.to(".pin2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 60%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        height: "15.260416666666668VW"
+    })
+    gsap.to(".pin2-title", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 60%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        opacity: 1
+    })
+
+
+
+
+    gsap.to(".pin3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 70%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        height: "11.770833333333334VW"
+    })
+    gsap.to(".pin3-title", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 70%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        opacity: 1
+    })
+
+
+
+    gsap.to(".pin4", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 50%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        height: "13.854166666666668VW"
+    })
+    gsap.to(".pin4-title", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 70%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        opacity: 1
+    })
+
+
+    gsap.to(".worldmap", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 32%",
+            end: "bottom bottom",
+            scrub: 1,
+        },
+        opacity: 1
+    })
+
+
+
 })

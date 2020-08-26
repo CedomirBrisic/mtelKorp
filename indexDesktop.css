@@ -1,0 +1,499 @@
+@import "./fonts.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Campton Black";
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-container {
+    width: 100%;
+    height: 9.25vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+
+.header-top-wrapper {
+    width: 100%;
+    height: 50%;
+    background-color: #002f50;
+    padding-left: 7.8125VW;
+    padding-right: 3.90625VW;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkedin-icon {
+    width: 0.9375VW;
+    height: 0.9375VW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedin-icon>img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.linkedin-icon:hover>img {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.search-container {
+    height: 1.5625VW;
+    border-left: 2px solid #ed1c24;
+    display: flex;
+    align-items: center;
+    padding-left: 0.9895833333333333VW;
+}
+
+.language {
+    color: #ffffff;
+    font-size: min(0.9375VW, 18px);
+    font-weight: 500;
+}
+
+.lang-arrow {
+    width: 0.78125VW;
+    height: 0.5208333333333333VW;
+    margin-left: 0.625VW;
+}
+
+.search-putin {
+    width: 12.968750000000002VW;
+    outline: none;
+    border: none;
+    background-color: #002f50;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    font-size: 0.8854166666666666VW;
+    color: #ffffff;
+    margin-left: 1VW;
+    padding-right: 1.2vw;
+}
+
+.search-icon {
+    width: 1.1458333333333333VW;
+    height: 1.1979166666666667VW;
+    position: relative;
+    left: 13.8VW;
+    bottom: 0.2vw;
+}
+
+
+
+.header-bottom-wrapper {
+    width: 100%;
+    height: 50%;
+    background-color: #ed1c24;
+    padding-left: 7.8125VW;
+    display: flex;
+    align-items: center;
+}
+
+.mtel-logo {
+    width: 5.3125VW;
+    height: 1.1458333333333333VW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4.739583333333333VW;
+}
+
+.mtel-logo>img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s;
+}
+
+.mtel-logo:hover>img {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.header-link-title {
+    color: #ffffff;
+    font-size: min(0.9375VW, 18px);
+    font-weight: 500;
+    margin-right: 3.463541666666667VW;
+}
+
+.header-link-title:hover {
+    color: #002f50;
+    cursor: pointer;
+}
+
+
+
+
+.countries-ikonice-container {
+    width: 78.22916666666667VW;
+    height: 5.364583333333333VW;
+    box-shadow: -0.625VW 0.46875VW 2.7083333333333335VW 0.26041666666666663VW rgba(1, 2, 2, 0.1);
+    z-index: 2;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2.67vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.34375VW;
+}
+
+.austria-country-icon {
+    width: 6.927083333333334VW;
+    height: 1.6666666666666667VW;
+    transition: transform 0.2s;
+}
+
+.austria-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+.swiss-country-icon {
+    width: 7.968749999999999VW;
+    height: 1.6666666666666667VW;
+    transition: transform 0.2s;
+}
+
+.swiss-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.usa-country-icon {
+    width: 6.979166666666667VW;
+    height: 1.6666666666666667VW;
+    transition: transform 0.2s;
+}
+
+.usa-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.canada-country-icon {
+    width: 6.979166666666667VW;
+    height: 2.083333333333333VW;
+    transition: transform 0.2s;
+}
+
+.canada-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.germany-country-icon {
+    width: 6.354166666666666VW;
+    height: 2.03125VW;
+    transition: transform 0.2s;
+}
+
+.germany-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.worldwide-country-icon {
+    width: 8.541666666666666VW;
+    height: 1.6666666666666667VW;
+    transition: transform 0.2s;
+}
+
+.worldwide-country-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* ----------------------------   SCREEN 1 VIEWBOX      ------------------------- */
+/* ----------------------------   SCREEN 1 VIEWBOX      ------------------------- */
+/* ----------------------------   SCREEN 1 VIEWBOX      ------------------------- */
+
+.screen1-wrapper {
+    width: 100%;
+    height: 58vh;
+    margin-top: 9.25vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    z-index: 1;
+}
+
+.screen1-viewbox {
+    width: 100%;
+    height: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.screen1-inner-viewbox {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+/*  -----------------------------------PPT 1---------------------------------------- */
+.ppt1-wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/ppt1background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ppt1-title {
+    text-shadow: 0.46875VW 0.625VW 2.7083333333333335VW rgba(1, 2, 2, 0.1);
+    color: #ffffff;
+    font-size: min(3.6458333333333335VW, 70px);
+    font-weight: 700;
+    position: absolute;
+    left: 10.78125VW;
+    bottom: 4vw;
+    z-index: 12;
+}
+
+
+
+/*  -----------------------------------PPT 2---------------------------------------- */
+.ppt2-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #002f50;
+    z-index: 10;
+    position: absolute;
+    top: 100%;
+}
+
+.ppt2-blue-light {
+    width: 66VW;
+    height: 100%;
+    z-index: 11;
+    position: absolute;
+    left: 34vw;
+    top: 0;
+    opacity: 0;
+}
+
+.ppt2-neon{
+    width: 27vw;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 53.8VW;
+    bottom: 5.5vw;
+    opacity: 0;
+}
+
+.ppt2-tv{
+    width: 20vw;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left:60VW;
+    bottom: 7.4vw;
+    /* opacity: 0; */
+}
+
+.ppt2-laptop{
+    width: 13.2vw;
+    height: auto;
+    z-index: 12;
+    position: absolute;
+    left: 53.9VW;
+    bottom: 6.2vw;
+
+    /* opacity: 0; */
+}
+
+.ppt2-tel{
+    width: 3.2vw;
+    height: auto;
+    z-index: 13;
+    position: absolute;
+    left: 63.5VW;
+    bottom: 6.8vw;
+    /* opacity: 0; */
+}
+
+.ppt2-reflection{
+    width: 27vw;
+    height: auto;
+    z-index: 11;
+    position: absolute;
+    left: 53.7VW;
+    bottom: -10.25vw;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+.ppt2-title{
+    font-size: 3vw;
+    font-weight: 900;
+    line-height: 3.2vw;
+    text-shadow: 0 0 1vw #19a9d3;
+    position: absolute;
+    top: 8%;
+    left: 14%;
+    -webkit-text-stroke: 0.2vw #19a9d3;
+    -webkit-text-fill-color: #ffffff;
+    opacity: 0;
+}
+
+.ppt2-sidetitle1{
+    background-color: #ed1c24;
+    font-size: 1.25vw;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-anchor: middle;
+    padding: 0.2vw 0.5vw;
+    position: absolute;
+    left: 14%;
+    top: 30%;
+    overflow: hidden    ;
+}
+
+.ppt2-sidetitle2{
+    background-color: #ed1c24;
+    font-size: 1.25vw;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-anchor: middle;
+    padding: 0.2vw 0.5vw;
+    position: absolute;
+    left: 14%;
+    top: 40%;
+}
+
+.ppt2-sidetitle3{
+    background-color: #ed1c24;
+    font-size: 1.25vw;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    text-anchor: middle;
+    padding: 0.2vw 0.5vw;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+}
+
+
+
+
+
+
+/*  -----------------------------------PPT 3---------------------------------------- */
+.ppt3-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #ed1c24;
+    z-index: 20;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppt3-title1{
+    color: #ffffff;
+    font-size: 2vw;
+    line-height: 2vw;
+    font-weight: 700;
+}
+
+.ppt3-title2{
+    color: #ffffff;
+    font-size: 12vw;
+    line-height: 12vw;
+    font-weight: 700;
+}
+
+.ppt3-title3{
+    color: #ffffff;
+    font-size: 2vw;
+    line-height: 2.4vw;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.ppt3-boy{
+    position: absolute;
+    width: 12vw;
+    height: auto;
+    top: 8%;
+    left: 60%;
+    z-index: 21;
+}
+
+
+.ppt3-girl{
+    position: absolute;
+    width: 12vw;
+    height: auto;
+    top: 8%;
+    left: 23%;
+    z-index: 21;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.viewbox-trigger1,
+.viewbox-trigger2,
+.viewbox-trigger3,
+.viewbox-trigger4 {
+    height: 100vh;
+    /* margin-top: 58vh; */
+}

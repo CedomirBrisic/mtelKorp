@@ -151,12 +151,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.34375VW;
+    padding: 0 3.802083333333333VW;
 }
 
 .austria-country-icon {
-    width: 6.927083333333334VW;
-    height: 1.6666666666666667VW;
+    width: 8.072916666666668VW;
+    height: 1.7187500000000002VW;
     transition: transform 0.2s;
 }
 
@@ -167,8 +167,8 @@ a {
 
 
 .swiss-country-icon {
-    width: 7.968749999999999VW;
-    height: 1.6666666666666667VW;
+    width: 7.708333333333334VW;
+    height: 1.7187500000000002VW;
     transition: transform 0.2s;
 }
 
@@ -178,8 +178,8 @@ a {
 }
 
 .usa-country-icon {
-    width: 6.979166666666667VW;
-    height: 1.6666666666666667VW;
+    width: 7.968749999999999VW;
+    height: 1.7187500000000002VW;
     transition: transform 0.2s;
 }
 
@@ -189,8 +189,8 @@ a {
 }
 
 .canada-country-icon {
-    width: 6.979166666666667VW;
-    height: 2.083333333333333VW;
+    width: 7.864583333333333VW;
+    height: 1.7187500000000002VW;
     transition: transform 0.2s;
 }
 
@@ -200,7 +200,7 @@ a {
 }
 
 .germany-country-icon {
-    width: 6.354166666666666VW;
+    width: 7.291666666666667VW;
     height: 2.03125VW;
     transition: transform 0.2s;
 }
@@ -211,8 +211,8 @@ a {
 }
 
 .worldwide-country-icon {
-    width: 8.541666666666666VW;
-    height: 1.6666666666666667VW;
+    width: 8.385416666666666VW;
+    height: 1.7187500000000002VW;
     transition: transform 0.2s;
 }
 
@@ -526,7 +526,7 @@ a {
     height: auto;
     top: 8%;
     left: 60%;
-    z-index: 21;
+    z-index: 23;
 }
 
 
@@ -536,8 +536,52 @@ a {
     height: auto;
     top: 8%;
     left: 23%;
-    z-index: 21;
+    z-index: 23;
 }
+
+
+
+.viewbox-snake-white-3 {
+    width: 4.2vw;
+    height: 20vw;
+    position: absolute;
+    left: 2%;
+    bottom: -21vw;
+    background-color: #ffffff;
+    z-index: 22;
+}
+
+.viewbox-snake-white-4 {
+    width: 4.2vw;
+    height: 0vw;
+    position: absolute;
+    right: 6.4%;
+    top: 8%;
+    background-color: #ffffff;
+    z-index: 23;
+}
+
+
+.viewbox-snake-blue-2 {
+    width: 23vw;
+    height: 4.2vw;
+    position: absolute;
+    right: -25vw;
+    top: 0;
+    background-color: #002f50;
+    z-index: 22;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -685,6 +729,7 @@ a {
     align-items: flex-end;
     padding-right: 2.4479166666666665VW;
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -742,7 +787,7 @@ a {
     /* background-image: url("./images/worldmap.png");
     background-size: 100% 100%; */
     position: relative;
-
+    z-index: 2;
 }
 
 .worldmap {
@@ -830,6 +875,17 @@ a {
     top: 9.2VW;
     opacity: 0;
 }
+
+.mtelglobal-snake-red1 {
+    width: 4.2vw;
+    height: 24vw;
+    position: absolute;
+    background-color: #ed1c24;
+    right: 6%;
+    bottom: -12vw;
+    z-index: 1;
+}
+
 
 
 

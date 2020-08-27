@@ -124,7 +124,7 @@ $(document).ready(function () {
     })
 
 
-        gsap.to(".ppt2-title", {
+    gsap.to(".ppt2-title", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             scroller: ".screen1-wrapper",
@@ -223,7 +223,7 @@ $(document).ready(function () {
 
 
 
-    
+
     gsap.to(".viewbox-snake-red-2", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -310,10 +310,51 @@ $(document).ready(function () {
     })
 
 
+    gsap.to(".viewbox-snake-blue-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger3",
+            start: "top top",
+            end: "bottom top",
+            scrub: 1
+        },
+        right: "100%",
+    })
+
+    gsap.to(".viewbox-snake-white-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger3",
+            start: "top top",
+            end: "bottom top",
+            scrub: 1
+        },
+        bottom: "100%",
+    })
 
 
-    
-    // ---------------------------PPT 4 -----------------------------------
+
+    const whitesnakeTl1 = gsap.timeline();
+    whitesnakeTl1.to(".viewbox-snake-white-4", {
+        height: "15vw"
+    }).to(".viewbox-snake-white-4", {
+        top: "100%"
+    })
+    ScrollTrigger.create({
+        toggleActions: "play pause resume reset",
+        animation: whitesnakeTl1,
+        scroller: ".screen1-wrapper",
+        trigger: ".viewbox-trigger3",
+        start: "top -14%",
+        end: "bottom 42%",
+        scrub: 1
+    })
+
+
+
+    // ---------------------------WORLD MAP -----------------------------------
     gsap.to(".pin1", {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
@@ -417,6 +458,17 @@ $(document).ready(function () {
         bottom: 0,
     })
 
+
+    gsap.to(".mtelglobal-snake-red1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            trigger: ".mtelglobal-container",
+            start: "top 80%",
+            scrub: 1,
+        },
+        bottom: "100%",
+        // duration: 1
+    })
 
 
 })

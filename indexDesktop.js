@@ -3,6 +3,46 @@ $(document).ready(function () {
     gsap.registerPlugin(ScrollTrigger);
 
 
+    gsap.to(".viewbox-snake-blue-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1-delay",
+            start: "top top",
+            endTrigger: ".viewbox-trigger1",
+            end: "top 66%",
+            scrub: 1
+        },
+        top: "100%"
+    })
+
+
+
+    gsap.to(".viewbox-snake-red-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1-delay",
+            start: "top top",
+            endTrigger: ".viewbox-trigger1",
+            end: "top 66%",
+            scrub: 1
+        },
+        left: "0"
+    })
+
+    gsap.to(".viewbox-snake-white-1", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1-delay",
+            start: "top top",
+            endTrigger: ".viewbox-trigger1",
+            end: "top top",
+            scrub: 1
+        },
+        left: "100%"
+    })
 
 
 
@@ -179,6 +219,50 @@ $(document).ready(function () {
     })
 
 
+
+
+
+
+    
+    gsap.to(".viewbox-snake-red-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1",
+            start: "bottom 50%",
+            endTrigger: ".viewbox-trigger3",
+            end: "bottom bottom",
+            scrub: 1
+        },
+        right: "100%"
+    })
+
+
+    gsap.to(".viewbox-snake-white-2", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1",
+            start: "bottom 50%",
+            endTrigger: ".viewbox-trigger3",
+            end: "bottom bottom",
+            scrub: 1
+        },
+        top: "94%"
+    })
+
+    gsap.to(".viewbox-snake-red-3", {
+        scrollTrigger: {
+            toggleActions: "play pause resume reset",
+            scroller: ".screen1-wrapper",
+            trigger: ".viewbox-trigger1",
+            start: "bottom 50%",
+            endTrigger: ".viewbox-trigger3",
+            end: "top 42%",
+            scrub: 1
+        },
+        left: "100%"
+    })
 
 
 

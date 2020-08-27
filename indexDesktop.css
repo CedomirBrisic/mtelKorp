@@ -239,6 +239,11 @@ a {
     z-index: 1;
 }
 
+.screen1-wrapper::-webkit-scrollbar {
+    width: 0;
+    scroll-behavior: smooth;
+}
+
 .screen1-viewbox {
     width: 100%;
     height: 100%;
@@ -279,7 +284,35 @@ a {
     z-index: 12;
 }
 
+.viewbox-snake-white-1{
+    width:23.4375VW;
+    height: 4.2VW;
+    background-color: #002f50;
+    position: absolute;
+    left: -2%;
+    top: 7%;
+    z-index: 9;
+}
 
+.viewbox-snake-blue-1{
+    width:4.2VW;
+    height: 24vw;
+    background-color: #ffffff;
+    position: absolute;
+    left: 3%;
+    top: 3%;
+    z-index: 8;
+}
+
+.viewbox-snake-red-1{
+    width:24VW;
+    height: 4.2vw;
+    background-color: #ed1c24;
+    position: absolute;
+    left: 88%;
+    top: 72%;
+    z-index: 7;
+}
 
 /*  -----------------------------------PPT 2---------------------------------------- */
 .ppt2-wrapper {
@@ -294,7 +327,7 @@ a {
 .ppt2-blue-light {
     width: 66VW;
     height: 100%;
-    z-index: 11;
+    z-index: 12;
     position: absolute;
     left: 34vw;
     top: 0;
@@ -304,7 +337,7 @@ a {
 .ppt2-neon {
     width: 27vw;
     height: auto;
-    z-index: 11;
+    z-index: 12;
     position: absolute;
     left: 53.8VW;
     bottom: 5.5vw;
@@ -314,7 +347,7 @@ a {
 .ppt2-tv {
     width: 20vw;
     height: auto;
-    z-index: 11;
+    z-index: 12;
     position: absolute;
     left: 60VW;
     bottom: 7.4vw;
@@ -324,9 +357,9 @@ a {
 .ppt2-laptop {
     width: 13.2vw;
     height: auto;
-    z-index: 12;
+    z-index: 14;
     position: absolute;
-    left: 53.9VW;
+    left: 54VW;
     bottom: 6.2vw;
 
     /* opacity: 0; */
@@ -335,7 +368,7 @@ a {
 .ppt2-tel {
     width: 3.2vw;
     height: auto;
-    z-index: 13;
+    z-index: 15;
     position: absolute;
     left: 63.5VW;
     bottom: 6.8vw;
@@ -345,10 +378,10 @@ a {
 .ppt2-reflection {
     width: 27vw;
     height: auto;
-    z-index: 11;
+    z-index: 15;
     position: absolute;
     left: 53.7VW;
-    bottom: -10.25vw;
+    bottom: -10.6vw;
     opacity: 0;
 }
 
@@ -370,6 +403,7 @@ a {
     -webkit-text-stroke: 0.2vw #19a9d3;
     -webkit-text-fill-color: #ffffff;
     opacity: 0;
+    z-index: 15;
 }
 
 .ppt2-sidetitle1 {
@@ -410,6 +444,37 @@ a {
     position: absolute;
     left: 14%;
     top: 50%;
+}
+
+
+.viewbox-snake-red-2{
+    width: 25.572916666666668VW;
+    height: 4.2vw;
+    position: absolute;
+    top: 6%;
+    right: -26vw;
+    z-index: 11;
+    background-color: #ed1c24;
+}
+
+.viewbox-snake-white-2{
+    width: 4.2vw;
+    height: 25.572916666666668VW;
+    position: absolute;
+    top: -27vw;
+    left: 6.4%;
+    z-index: 12;
+    background-color: #ffffff;
+}
+
+.viewbox-snake-red-3{
+    width: 25.572916666666668VW;
+    height: 4.2vw;
+    position: absolute;
+    top: 70%;
+    left: -28vw;
+    z-index: 11;
+    background-color: #ed1c24;
 }
 
 
@@ -476,7 +541,9 @@ a {
 
 
 
-
+.viewbox-triger1-delay{
+    height: 25vh;
+}
 
 
 

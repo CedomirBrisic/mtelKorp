@@ -409,11 +409,12 @@ $(document).ready(function () {
         scrollTrigger: {
             toggleActions: "play pause resume reset",
             trigger: ".mtelglobal-container",
-            start: "top 32%",
+            start: "top 80%",
             end: "bottom bottom",
             scrub: 1,
         },
-        opacity: 1
+        opacity: 1,
+        bottom: 0,
     })
 
 

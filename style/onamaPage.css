@@ -1,0 +1,91 @@
+@import "./fonts.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Campton Black";
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-title-container {
+    width: 33.541666666666664VW;
+    height: 4.583333333333333VW;
+    margin-top: 8.75VW;
+    margin-left: 5.364583333333333VW;
+    border-bottom: 2px solid #bcbec0;
+    position: relative;
+}
+
+.page-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2.1875VW;
+    font-weight: 700;
+    color: #002f50;
+}
+
+.viewbox-container {
+    width: 100%;
+    height: 38.6VW;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewbox-wrapper {
+    width: 89.0625VW;
+    height: 33.697916666666664VW;
+    display: flex;
+}
+
+.left-viewbox-wrapper {
+    width: 58%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.right-viewbox-wrapper {
+    width: 42%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #ebebec;
+    position: relative;
+}
+
+.ppt1-img {
+    width: 100%;
+    height: 100%;
+}
+
+.ppt1-content-wrapper{
+    width: 100%;
+    height: 100%;
+    color: #002f50;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3.5937499999999996VW;
+    padding-left: 3.5937499999999996VW;
+}
+.content-title{
+    font-size: 2.1875VW;
+    text-align: start;
+    font-weight: 400;
+    margin-bottom: 2.2vw;
+}
+
+.content{
+    font-size: 1.3020833333333335VW;
+    line-height: 1.8vw;
+    margin-bottom: 1.5vw;
+    font-weight: 400;
+    text-align: justify;
+}

@@ -459,16 +459,16 @@ $(document).ready(function () {
     })
 
 
-    gsap.to(".mtelglobal-snake-red1", {
-        scrollTrigger: {
-            toggleActions: "play pause resume reset",
-            trigger: ".mtelglobal-container",
-            start: "top 80%",
-            scrub: 1,
-        },
-        bottom: "100%",
-        // duration: 1
-    })
+    // gsap.to(".mtelglobal-snake-red1", {
+    //     scrollTrigger: {
+    //         toggleActions: "play pause resume reset",
+    //         trigger: ".mtelglobal-container",
+    //         start: "top 80%",
+    //         scrub: 1,
+    //     },
+    //     bottom: "100%",
+    //     // duration: 1
+    // })
 
 
 })

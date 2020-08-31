@@ -6,51 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/images/titlebarLogo.png" type="image/x-icon">
     <title>MTEL - Svet bez granica</title>
-    <link rel="stylesheet" href="./indexDesktop.css">
+    <link rel="stylesheet" href="./style/indexDesktop.css">
+    <!-- <link rel="stylesheet" href="./style/header.css">  -->
 </head>
 
 <body>
 
 
-    <div class="header-container">
-        <div class="header-top-wrapper">
-            <a class="linkedin-icon"
-                href="https://www.linkedin.com/company/m-tel-d.o.o.?trk=similar-pages_result-card_full-click"
-                target="_blank" rel="noopener noreferrer">
-                <img src="./images/linkedin_icon.png" alt="linkedin">
-            </a>
+    <div id="header-place">
 
-
-            <div class="search-container">
-                <div class="language">
-                    SR
-                </div>
-                <img class="lang-arrow" src="./images/triangle.png" alt="strelica">
-
-                <img class="search-icon" src="./images/lupa.png" alt="lupa">
-                <input type="search" class="search-putin">
-            </div>
-        </div>
-        <div class="header-bottom-wrapper">
-            <a class="mtel-logo" href="#">
-                <img src="./images/LOGO.png" alt="logo">
-            </a>
-            <a class="header-link-title" href="#">
-                O NAMA
-            </a>
-            <a class="header-link-title" href="#">
-                POSTANI PARTNER
-            </a>
-            <a class="header-link-title" href="#">
-                KARIJERA
-            </a>
-            <a class="header-link-title" href="#">
-                VESTI
-            </a>
-            <a class="header-link-title" href="#">
-                KONTAKT
-            </a>
-        </div>
     </div>
 
 
@@ -336,9 +300,9 @@
         </div>
 
 
-        <div class="mtelglobal-snake-red1">
+        <!-- <div class="mtelglobal-snake-red1">
             
-        </div>
+        </div> -->
     </div>
 
     <img src="./images/footer.png" alt="footer" class="footer">
@@ -363,11 +327,16 @@
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#header-place').load("./components/header.html");
+        });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollToPlugin.min.js"></script>
-
-    <script src="./indexDesktop.js"></script>
+    <script src="./js/indexDesktop.js"></script>
 </body>
 
 </html>

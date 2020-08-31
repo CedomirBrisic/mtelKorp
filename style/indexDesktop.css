@@ -13,128 +13,6 @@ a {
     text-decoration: none;
 }
 
-.header-container {
-    width: 100%;
-    height: 9.25vh;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99;
-}
-
-
-.header-top-wrapper {
-    width: 100%;
-    height: 50%;
-    background-color: #002f50;
-    padding-left: 7.8125VW;
-    padding-right: 3.90625VW;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.linkedin-icon {
-    width: 0.9375VW;
-    height: 0.9375VW;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.linkedin-icon>img {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.2s;
-}
-
-.linkedin-icon:hover>img {
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
-.search-container {
-    height: 1.5625VW;
-    border-left: 2px solid #ed1c24;
-    display: flex;
-    align-items: center;
-    padding-left: 0.9895833333333333VW;
-}
-
-.language {
-    color: #ffffff;
-    font-size: min(0.9375VW, 18px);
-    font-weight: 500;
-}
-
-.lang-arrow {
-    width: 0.78125VW;
-    height: 0.5208333333333333VW;
-    margin-left: 0.625VW;
-}
-
-.search-putin {
-    width: 12.968750000000002VW;
-    outline: none;
-    border: none;
-    background-color: #002f50;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    font-size: 0.8854166666666666VW;
-    color: #ffffff;
-    margin-left: 1VW;
-    padding-right: 1.2vw;
-}
-
-.search-icon {
-    width: 1.1458333333333333VW;
-    height: 1.1979166666666667VW;
-    position: relative;
-    left: 13.8VW;
-    bottom: 0.2vw;
-}
-
-
-
-.header-bottom-wrapper {
-    width: 100%;
-    height: 50%;
-    background-color: #ed1c24;
-    padding-left: 7.8125VW;
-    display: flex;
-    align-items: center;
-}
-
-.mtel-logo {
-    width: 5.3125VW;
-    height: 1.1458333333333333VW;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 4.739583333333333VW;
-}
-
-.mtel-logo>img {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.2s;
-}
-
-.mtel-logo:hover>img {
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
-.header-link-title {
-    color: #ffffff;
-    font-size: min(0.9375VW, 18px);
-    font-weight: 500;
-    margin-right: 3.463541666666667VW;
-}
-
-.header-link-title:hover {
-    color: #002f50;
-    cursor: pointer;
-}
 
 
 
@@ -267,7 +145,7 @@ a {
 .ppt1-wrapper {
     width: 100%;
     height: 100%;
-    background-image: url("./images/ppt1background.png");
+    background-image: url("../images/ppt1background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -878,7 +756,7 @@ a {
     opacity: 0;
 }
 
-.mtelglobal-snake-red1 {
+/* .mtelglobal-snake-red1 {
     width: 4.2vw;
     height: 24vw;
     position: absolute;
@@ -886,7 +764,7 @@ a {
     right: 6%;
     bottom: -12vw;
     z-index: 1;
-}
+} */
 
 
 
